@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Persional Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/620291cbef.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container1">
+            <nav>
+               <h1 id="sub">ANUraG.</h1>
+               <ul id="sidemenu">
+                <li><a href="#header">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#Project">Project</a></li>
+                <li><a href="#tab-titles">Skills</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <i class="fas fa-times" onclick="closemenu()"></i>
+               </ul>
+               <i class="fas fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <h1>Hi,<br> I'm <span>Anurag</span> Nayak.<br>From <bold>India.</bold></h1><br><br><br><br><br><br><br>
+                <div class="btnw">
+                    <a href="#quote" class="quote">Get a Quote</a>
+                    <a href="#about" class="about">About Me</a>
+                    </div>
+            </div>
+        </div>
+    </div>
+   
+    <!----------------About--------->
+    <div id="about">
+        <div class="container1">
+            <div class="row">
+                <div class="about-col-1">
+                <img src="image/dfgh.png">
+                 </div>   
+                <div class="about-col-2">
+                <h1 class="sub-title">About Me</h1>
+                <p>My name is <strong>Anurag Nayak</strong>, and I am currently in my third year of B.Tech at
+                   SRM University, specializing in Computer Science and Engineering (CSE). I am passionate about
+                   web development and have gained proficiency in HTML, CSS, JavaScript, React, and PHP. 
+                   Through various projects, I have honed my skills and applied my knowledge effectively. 
+                   Additionally, I am familiar with databases like MongoDB and MySQL. My continuous learning
+                   and development in different programming domains keep me updated with the latest advancements in the tech world.
+
+                </p>
+                <p>
+                    
+                </p>
+                <div class="tab-titles" id="tab-titles">
+                    <p class="tab-links active-link" onclick="opentab('education')">Education</p>
+                    <p class="tab-links " onclick="opentab('skills')">Skills</p>
+                    <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                  
+                </div>
+                <div class="tab-content active-tab" id="education">
+                    <ul>
+                        <li><span>2019</span><br>10th Pass</li>
+                        <li><span>2021</span><br>12th Pass</li>
+                        <li><span>2022-2026</span><br>B.Tech in CSE</li>
+                    </ul>
+                </div>
+                <div id="skil">
+                 <div class="tab-content" id="skills">
+                    <div class="container">
+                        <div class="title">
+                            <h4>My Skills</h4>
+                            <p>I believe in continuously developing skills and transitioning between different programming domains.
+                               This approach not only enhances my knowledge but also keeps me well-informed about the latest advancements
+                                in the tech world.</p>
+                        </div>
+                        <div class="skills">
+                            <div class="skill">
+                                <h3>CSS <span>80%</span></h3>
+                                <div class="progress-bar"><div class="progress" style="width: 80%;"></div></div>
+                            </div>
+                            <div class="skill">
+                                <h3>React <span>60%</span></h3>
+                                <div class="progress-bar"><div class="progress" style="width: 60%;"></div></div>
+                            </div>
+                            <div class="skill">
+                                <h3>MongoDB <span>60%</span></h3>
+                                <div class="progress-bar"><div class="progress" style="width: 60%;"></div></div>
+                            </div>
+                            <div class="skill">
+                                <h3>Python <span>60%</span></h3>
+                                <div class="progress-bar"><div class="progress" style="width: 60%;"></div></div>
+                            </div>
+                            <div class="skill">
+                                <h3>PHP <span>60%</span></h3>
+                                <div class="progress-bar"><div class="progress" style="width: 60%;"></div></div>
+                            </div>
+                            <div class="skill">
+                                <h3>JavaScript <span>75%</span></h3>
+                                <div class="progress-bar"><div class="progress" style="width: 75%;"></div></div>
+                            </div>
+                            <div class="skill">
+                                <h3>Node <span>50%</span></h3>
+                                <div class="progress-bar"><div class="progress" style="width: 50%;"></div></div>
+                            </div>
+                            <div class="skill">
+                                <h3>C++ <span>80%</span></h3>
+                                <div class="progress-bar"><div class="progress" style="width: 80%;"></div></div>
+                            </div>
+                            <div class="skill">
+                                <h3>Data Structure And Algorithm <span>85%</span></h3>
+                                <div class="progress-bar"><div class="progress" style="width: 85%;"></div></div>
+                            </div>
+                            <div class="skill">
+                                <h3>MY SQL <span>70%</span></h3>
+                                <div class="progress-bar"><div class="progress" style="width: 70%;"></div></div>
+                            </div>
+                            <div class="skill">
+                                <h3>HTML <span>90%</span></h3>
+                                <div class="progress-bar"><div class="progress" style="width: 90%;"></div></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+                <div class="tab-content" id="experience">
+                   <p>I have no experience right now. In future i will have experience.</p>
+                </div>
+                
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--------PROject-----------
+    <div id="project">
+        <div class="container1">
+            <div class="row">
+                <h1 class="pro">My Project</h1>
+
+            </div>
+        </div>
+    </div>
+-->
+
+   <!--- ----------Project-------->
+   <div id="Project">
+    <div class="container1">
+        <h1 class="sub-title">My Projects</h1>
+        <div class="services-list">
+            <div>
+                <i class="fas fa-code"></i>
+                <h2>Personal Protfolio</h2>
+                    <p>I developed a personal portfolio page using HTML, CSS, and JavaScript. It highlights my skills, projects, and experiences with a modern and responsive design. The portfolio includes sections for my resume, a gallery of my work, and a contact form. The interactive elements ensure a dynamic and engaging user experience.</p>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class="fas fa-crop-alt"></i>
+                <h2> Quiz Application</h2>
+                <p>I've developed a comprehensive quiz application using HTML, CSS, JavaScript, PHP, and XAMPP. In this system, administrators can easily add new questions to the quiz. Students or users can take the exam, with each question having a specific time limit for completion. To ensure exam integrity, the application displays a pop-up message if a user switches tabs during the test.</p>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-brands fa-paypal"></i>
+            <h2> Online Pharmacy Store</h2>
+                <p>Our group of four friends developed a project that uses HTML, CSS, JavaScript, and a database managed with DBMS and XAMPP. The system tracks stock levels, ensuring that only available items are given to patients. At the end of the transaction, the application calculates the total bill, streamlining the entire process..
+                </p>
+                <a href="#">Learn more</a>
+            </div>
+        </div>    
+    </div>
+   </div>
+<!-------------Contact------->
+
+<div id="contact">
+    <div class="container1">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fas fa-paper-plane"></i>subhash321nayak@gmail.com</p>
+                <p><i class="fas fa-phone-square-alt"></i>6301898031</p>
+                <div class="social-icons">
+                <a href="https://www.facebook.com/subhash.nayak.96780"><i class="fab fa-facebook"></i></a>
+                <a href="https://www.instagram.com/subhasnayak6/"><i class="fab fa-instagram"></i></a>
+                <a href="https://linkedin.com/in/anurag-nayak-909a41258/"><i class="fab fa-linkedin"></i></a><br><br><br>
+                </div>
+                <a href="image/Anu-cv.pdf" download class="btn btn2">Download CV</a>
+            </div>
+            <div class="contact-right" id="quote">
+                <form action="https://api.web3forms.com/submit" method="POST">
+
+                    <input type="hidden" name="access_key" value="3dc81327-cbae-449f-8a94-b406757d541a">
+
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+                <div id="msg"></div>
+                <div class="btnw">
+                    <a href="#header" class="about">Home Page</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>&copy; 2024 Anurag Nayak.<i class="fas fa-heart"></i> All right reserved</p>
+    </div>
+</div>
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-content");
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link");
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+    </script>
+    <script>
+        var sidemenu=document.getElementById("sidemenu");
+        function openmenu(){
+            sidemenu.style.right="0";
+        }
+        function closemenu(){
+            sidemenu.style.right="-200px";
+        }
+    </script>
+     <script>
+        document.getElementById('contactForm').addEventListener('submit', function(event) {
+          event.preventDefault(); 
+          setTimeout(() => {
+            document.getElementById('msg').innerHTML = '<p>Message sent successfully!</p>';
+            event.target.reset();
+          }, 1000); 
+        });
+      </script>
+</body>
+</html>
