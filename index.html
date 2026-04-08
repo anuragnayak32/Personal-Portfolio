@@ -1,0 +1,495 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Anurag Nayak - Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+    <script
+      src="https://kit.fontawesome.com/620291cbef.js"
+      crossorigin="anonymous"
+    ></script>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div id="header">
+      <div class="container1">
+        <nav>
+          <h1 id="sub">ANUraG.</h1>
+          <ul id="sidemenu">
+            <li><a href="#header">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#Project">Projects</a></li>
+            <li><a href="#research">Research</a></li>
+            <li><a href="#experience-section">Experience</a></li>
+            <li><a href="#tab-titles">Skills</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <i class="fas fa-times" onclick="closemenu()"></i>
+          </ul>
+          <i class="fas fa-bars" onclick="openmenu()"></i>
+        </nav>
+        <div class="header-text">
+          <h1>
+            Hi,<br />
+            I'm <span>Anurag</span> Nayak.<br />
+            I am a <br /><span class="typing-text"
+              >AI/ML Engineer and Full Stack Developer</span
+            >
+          </h1>
+
+          <p class="hero-description">
+            I'm a B.Tech student specializing in Computer Science & Engineering
+            at SRM University. Passionate about building innovative web
+            applications and leveraging AI/ML to solve real-world problems. With
+            expertise in MERN stack, Python, TensorFlow, and modern web
+            technologies.
+          </p>
+
+          <div class="btnw">
+            <a href="#quote" class="quote">Get a Quote</a>
+            <a href="#about" class="about">About Me</a>
+            <a
+              href="image/Anu-cv.pdf"
+              download
+              class="quote"
+              style="background: linear-gradient(135deg, #00ff88, #059d9d)"
+              >Download CV</a
+            >
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!----------------About--------->
+    <div id="about">
+      <div class="container1">
+        <div class="row">
+          <div class="about-col-1">
+            <img src="image/dfgh.png" />
+          </div>
+          <div class="about-col-2">
+            <h1 class="sub-title">About Me</h1>
+            <p>
+              My name is <strong>Anurag Nayak</strong>, and I am a BTech student
+              with a strong interest in software development and machine
+              learning. I have built projects such as a portfolio website, a
+              quiz application with timed features and tab-switch detection, and
+              a brain tumor detection system using a CNN (ResNet50). These
+              projects have helped me gain practical experience in development
+              and problem-solving. I am comfortable with C/C++, Java, Python,
+              and web technologies like HTML, CSS, JavaScript, and PHP. I have
+              also worked on core concepts like operating systems, networking,
+              and basic machine learning models. I enjoy learning through
+              hands-on projects and continuously improving my skills, especially
+              in the field of AI/ML.
+            </p>
+            <p></p>
+            <div class="tab-titles" id="tab-titles">
+              <p class="tab-links active-link" onclick="opentab('education')">
+                Education
+              </p>
+              <p class="tab-links" onclick="opentab('skills')">Skills</p>
+              <p class="tab-links" onclick="opentab('experience')">
+                Experience
+              </p>
+            </div>
+            <div class="tab-content active-tab" id="education">
+              <ul>
+                <li><span>2019</span><br />10th Pass</li>
+                <li><span>2021</span><br />12th Pass</li>
+                <li><span>2022-2026</span><br />B.Tech in CSE</li>
+              </ul>
+            </div>
+            <div id="skil">
+              <div class="tab-content" id="skills">
+                <div class="container">
+                  <div class="title">
+                    <h4>My Skills</h4>
+                    <p>
+                      I believe in continuously developing skills and
+                      transitioning between different programming domains. This
+                      approach not only enhances my knowledge but also keeps me
+                      well-informed about the latest advancements in the tech
+                      world.
+                    </p>
+                  </div>
+                  <div class="skills">
+                    <div class="skill">
+                      <h3>Python <span>90%</span></h3>
+                      <div class="progress-bar">
+                        <div class="progress" style="width: 90%"></div>
+                      </div>
+                    </div>
+                    <div class="skill">
+                      <h3>JavaScript <span>85%</span></h3>
+                      <div class="progress-bar">
+                        <div class="progress" style="width: 85%"></div>
+                      </div>
+                    </div>
+                    <div class="skill">
+                      <h3>React.js <span>80%</span></h3>
+                      <div class="progress-bar">
+                        <div class="progress" style="width: 80%"></div>
+                      </div>
+                    </div>
+                    <div class="skill">
+                      <h3>C/C++ <span>85%</span></h3>
+                      <div class="progress-bar">
+                        <div class="progress" style="width: 85%"></div>
+                      </div>
+                    </div>
+                    <div class="skill">
+                      <h3>Node.js & Express <span>75%</span></h3>
+                      <div class="progress-bar">
+                        <div class="progress" style="width: 75%"></div>
+                      </div>
+                    </div>
+                    <div class="skill">
+                      <h3>MongoDB <span>80%</span></h3>
+                      <div class="progress-bar">
+                        <div class="progress" style="width: 80%"></div>
+                      </div>
+                    </div>
+                    <div class="skill">
+                      <h3>MySQL <span>80%</span></h3>
+                      <div class="progress-bar">
+                        <div class="progress" style="width: 80%"></div>
+                      </div>
+                    </div>
+                    <div class="skill">
+                      <h3>TensorFlow & Keras <span>75%</span></h3>
+                      <div class="progress-bar">
+                        <div class="progress" style="width: 75%"></div>
+                      </div>
+                    </div>
+                    <div class="skill">
+                      <h3>OpenCV <span>75%</span></h3>
+                      <div class="progress-bar">
+                        <div class="progress" style="width: 75%"></div>
+                      </div>
+                    </div>
+                    <div class="skill">
+                      <h3>REST API <span>80%</span></h3>
+                      <div class="progress-bar">
+                        <div class="progress" style="width: 80%"></div>
+                      </div>
+                    </div>
+                    <div class="skill">
+                      <h3>HTML & CSS <span>90%</span></h3>
+                      <div class="progress-bar">
+                        <div class="progress" style="width: 90%"></div>
+                      </div>
+                    </div>
+                    <div class="skill">
+                      <h3>Git & GitHub <span>85%</span></h3>
+                      <div class="progress-bar">
+                        <div class="progress" style="width: 85%"></div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="tab-content" id="experience">
+              <p>
+                I have no experience right now. In future i will have
+                experience.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--------PROject-----------
+    <div id="project">
+        <div class="container1">
+            <div class="row">
+                <h1 class="pro">My Project</h1>
+
+            </div>
+        </div>
+    </div>
+-->
+
+    <!--- ----------Project-------->
+    <div id="Project">
+      <div class="container1">
+        <h1 class="sub-title">My Projects</h1>
+        <div class="services-list">
+          <div class="project-card">
+            <div class="project-icon">
+              <i class="fas fa-face-grin"></i>
+            </div>
+            <h2>Face Recognition Attendance System</h2>
+            <p class="tech-stack">
+              <strong>Tech:</strong> Python | TensorFlow/Keras | OpenCV |
+              ResNet50
+            </p>
+            <p>
+              Built a real-time Face Recognition Attendance System using Python
+              and TensorFlow/Keras with ResNet50 to automate attendance with
+              high accuracy. Developed a data collection pipeline and integrated
+              OpenCV for real-time camera-based face detection. Improved
+              tracking efficiency and ensured smooth, practical deployment of
+              the system.
+            </p>
+            <div class="project-links">
+              <a
+                href="https://github.com/anuragnayak32"
+                class="btn-project btn-demo"
+                target="_blank"
+                ><i class="fas fa-eye"></i> View Project</a
+              >
+              <a
+                href="https://github.com/anuragnayak32/Face-Recognition-Attendance-System"
+                class="btn-project btn-code"
+                target="_blank"
+                ><i class="fab fa-github"></i> GitHub</a
+              >
+            </div>
+          </div>
+
+          <div class="project-card">
+            <div class="project-icon">
+              <i class="fas fa-hospital"></i>
+            </div>
+            <h2>Dr. CureX - Healthcare Platform</h2>
+            <p class="tech-stack">
+              <strong>Tech:</strong> React.js | Node.js | Express.js | MongoDB |
+              GROQ API
+            </p>
+            <p>
+              Built a comprehensive healthcare web application using the MERN
+              stack with an LLM-based chatbot that provides health suggestions
+              based on user symptoms using GROQ API. Developed a doctor
+              appointment booking system with step-by-step scheduling and an
+              interactive dashboard. Added features like BMI calculation and
+              health overview to make the platform practical and user-friendly.
+            </p>
+            <div class="project-links">
+              <a
+                href="https://github.com/anuragnayak32"
+                class="btn-project btn-demo"
+                target="_blank"
+                ><i class="fas fa-eye"></i> View Project</a
+              >
+              <a
+                href="https://github.com/manjilnepal/dr-curex"
+                class="btn-project btn-code"
+                target="_blank"
+                ><i class="fab fa-github"></i> GitHub</a
+              >
+            </div>
+          </div>
+
+          <div class="project-card">
+            <div class="project-icon">
+              <i class="fas fa-compress"></i>
+            </div>
+            <h2>HuffZip - File Compression Tool</h2>
+            <p class="tech-stack">
+              <strong>Tech:</strong> Python | Data Structures & Algorithms |
+              Huffman Coding
+            </p>
+            <p>
+              Built a file compression and decompression tool using the Huffman
+              Coding algorithm. Achieved 60-70% file size reduction,
+              significantly improving storage efficiency. Demonstrates strong
+              fundamentals in data structures and algorithms with practical
+              real-world application.
+            </p>
+            <div class="project-links">
+              <a
+                href="https://github.com/anuragnayak32"
+                class="btn-project btn-demo"
+                target="_blank"
+                ><i class="fas fa-eye"></i> View Project</a
+              >
+              <a
+                href="https://github.com/anuragnayak32/HuffZip"
+                class="btn-project btn-code"
+                target="_blank"
+                ><i class="fab fa-github"></i> GitHub</a
+              >
+            </div>
+          </div>
+        </div>
+        <div style="text-align: center; margin-top: 50px">
+          <a
+            href="https://github.com/anuragnayak32"
+            class="btn btn2"
+            target="_blank"
+            style="background: linear-gradient(135deg, #6f42c1, #8b5fbf)"
+            ><i class="fab fa-github"></i> See More on GitHub</a
+          >
+        </div>
+      </div>
+    </div>
+
+    <!--- Research & Publications Section --->
+    <div id="research">
+      <div class="container1">
+        <h1 class="sub-title">Research & Publications</h1>
+        <div class="research-container">
+          <div class="research-card">
+            <div class="research-icon">
+              <i class="fas fa-brain"></i>
+            </div>
+            <h2>Hybrid CNN-Transformer Model for Brain Tumor Classification</h2>
+            <p class="publication-date">
+              <i class="fas fa-calendar"></i> July 2025
+            </p>
+            <p class="publication-venue">
+              <strong>Conference:</strong> OPJU International Technology
+              Conference (OTCON) 2025 | <strong>Published in:</strong> IEEE
+            </p>
+            <p>
+              Developed a hybrid CNN-Transformer model for brain tumor
+              classification using MRI data. Leveraged advanced feature
+              extraction and attention mechanisms to achieve high accuracy.
+              Designed and implemented a complete deep learning pipeline using
+              TensorFlow/Keras with data augmentation, dropout, and class
+              weighting. Developed a custom prediction system with confidence
+              analysis to improve robustness, interpretability, and real-world
+              usability.
+            </p>
+            <div class="research-badges">
+              <span class="badge">TensorFlow</span>
+              <span class="badge">Deep Learning</span>
+              <span class="badge">CNN</span>
+              <span class="badge">Transformer</span>
+              <span class="badge">IEEE</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!--- Work Experience Section --->
+    <div id="experience-section">
+      <div class="container1">
+        <h1 class="sub-title">Work Experience</h1>
+        <div class="experience-timeline">
+          <div class="experience-card">
+            <div class="exp-icon">
+              <i class="fas fa-briefcase"></i>
+            </div>
+            <div class="exp-content">
+              <h2>Frontend Developer Intern</h2>
+              <p class="company"><strong>IBM SKILL-BUILD</strong></p>
+              <p class="duration">
+                <i class="fas fa-clock"></i> June 2024 - July 2024
+              </p>
+              <ul class="exp-description">
+                <p>
+                  Worked as a Frontend Developer Intern, building responsive web
+                  interfaces using HTML, CSS, and JavaScript with a focus on
+                  clean design and performance. Developed reusable components
+                  and structured layouts, gaining hands-on experience in
+                  real-world frontend development practices.
+                </p>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-------------Contact------->
+
+    <div id="contact">
+      <div class="container1">
+        <div class="row">
+          <div class="contact-left">
+            <h1 class="sub-title">Contact Me</h1>
+            <p><i class="fas fa-paper-plane"></i>subhash321nayak@gmail.com</p>
+            <p><i class="fas fa-phone-square-alt"></i>6301898031</p>
+            <div class="social-icons">
+              <a href="https://www.facebook.com/subhash.nayak.96780"
+                ><i class="fab fa-facebook"></i
+              ></a>
+              <a href="https://www.instagram.com/subhasnayak6/"
+                ><i class="fab fa-instagram"></i
+              ></a>
+              <a href="https://linkedin.com/in/anurag-nayak-909a41258/"
+                ><i class="fab fa-linkedin"></i></a
+              ><br /><br /><br />
+            </div>
+            <a href="image/Anu-cv.pdf" download class="btn btn2">Download CV</a>
+          </div>
+          <div class="contact-right" id="quote">
+            <form action="https://api.web3forms.com/submit" method="POST">
+              <input
+                type="hidden"
+                name="access_key"
+                value="3dc81327-cbae-449f-8a94-b406757d541a"
+              />
+
+              <input type="text" name="Name" placeholder="Your Name" required />
+              <input
+                type="email"
+                name="Email"
+                placeholder="Your Email"
+                required
+              />
+              <textarea
+                name="Message"
+                rows="6"
+                placeholder="Your Message"
+              ></textarea>
+              <button type="submit" class="btn btn2">Submit</button>
+            </form>
+            <div id="msg"></div>
+            <div class="btnw">
+              <a href="#header" class="about">Home Page</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="copyright">
+        <p>
+          &copy; 2024 Anurag Nayak.<i class="fas fa-heart"></i> All right
+          reserved
+        </p>
+      </div>
+    </div>
+    <script>
+      var tablinks = document.getElementsByClassName("tab-links");
+      var tabcontents = document.getElementsByClassName("tab-content");
+      function opentab(tabname) {
+        for (tablink of tablinks) {
+          tablink.classList.remove("active-link");
+        }
+        for (tabcontent of tabcontents) {
+          tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+      }
+    </script>
+    <script>
+      var sidemenu = document.getElementById("sidemenu");
+      function openmenu() {
+        sidemenu.style.right = "0";
+      }
+      function closemenu() {
+        sidemenu.style.right = "-200px";
+      }
+    </script>
+    <script>
+      document
+        .getElementById("contactForm")
+        .addEventListener("submit", function (event) {
+          event.preventDefault();
+          setTimeout(() => {
+            document.getElementById("msg").innerHTML =
+              "<p>Message sent successfully!</p>";
+            event.target.reset();
+          }, 1000);
+        });
+    </script>
+  </body>
+</html>
